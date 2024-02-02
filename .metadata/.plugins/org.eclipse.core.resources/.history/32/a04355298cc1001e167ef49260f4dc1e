@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>modelAndView</title>
+</head>
+<body>
+<h1>${sec_data}</h1>
+<a href="send?id=user&num1=1234&num2=73">[전송]</a>
+<hr>
+<form action="uri">
+<input type="text" name="id"> <br>
+<input type="password" name="pwd"> <br>
+<input type="submit" name="로그인">
+</form>
+</body>
+</html>
